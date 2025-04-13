@@ -12,12 +12,6 @@ const businessSchema = new mongoose.Schema({
     website:{
         type: String,
     },
-    location:{
-        type: String,
-    },
-    logo:{
-        type: String //Url logo
-    },
     userId:{
         type:mongoose.Schema.Types.ObjectId,
         ref:'User',
